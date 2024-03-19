@@ -28,7 +28,7 @@ html {
 }
 
 header {
-  padding: 1.6rem 1.6rem;
+  padding: 1.6rem 1.6rem 0 1.6rem;
   display: flex;
   justify-content: space-between;
 }
@@ -49,4 +49,29 @@ header button {
 header button a {
   color: var(--white);
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 2.4rem 3.9rem 0 3.9rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 2.4rem 16.5rem 0 16.5rem;
+  }
+
+  header img {
+    width: 11.4rem;
+  }
+
+  header button {
+    width: 16.7rem;
+    height: 5.6rem;
+  }
+
+  header button a {
+    font-size: 1.8rem;
+  }
 }
