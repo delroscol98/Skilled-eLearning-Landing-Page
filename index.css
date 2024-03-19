@@ -1,0 +1,52 @@
+:root {
+  --greyish-blue: #666ca3;
+  --dark-navy: #13183f;
+  --grey: #83869a;
+  --hot-pink: #f74780;
+  --baby-pink: #ffa7c3;
+  --white: #fff;
+  --gradient-1: linear-gradient(#ff6f48, #f02aa6);
+  --gradient-2: linear-gradient(#4851ff, #f02aa6);
+  --heading-xl: 5.6rem;
+  --heading-lg: 4rem;
+  --heading-md: 3.2rem;
+  --heading-sm: 2.4rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 10px;
+  background: linear-gradient(#fff, #f0f1ff) no-repeat;
+}
+
+header {
+  padding: 1.6rem 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 8.9rem;
+  align-self: center;
+}
+
+header button {
+  background-color: var(--dark-navy);
+  border: none;
+  width: 14rem;
+  height: 4.8rem;
+  border-radius: 2.8rem;
+}
+
+header button a {
+  color: var(--white);
+  text-decoration: none;
+}
