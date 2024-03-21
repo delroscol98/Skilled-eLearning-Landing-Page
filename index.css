@@ -54,11 +54,21 @@ html {
   float: right;
 }
 
+.hero_header-button:active {
+  background-color: color-mix(in srgb, var(--white) 10%, var(--greyish-blue));
+}
+
 .hero_header-button a {
   color: var(--white);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.6rem;
+}
+
+.hero_header-button a:active {
+  background: -webkit-linear-gradient(#ff6f48, #f02aa6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero_text {
@@ -88,6 +98,10 @@ html {
   height: 5.6rem;
   border-radius: 3.15rem;
   border: none;
+}
+
+.hero_text button:active {
+  opacity: 50%;
 }
 
 .hero_text button a {
