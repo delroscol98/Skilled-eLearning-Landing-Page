@@ -25,7 +25,7 @@ html {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 10px;
   background: linear-gradient(#fff, #f0f1ff) no-repeat;
-  height: 100%;
+  height: auto;
 }
 
 .hero_header-logo {
@@ -86,6 +86,7 @@ html {
 
 .hero_text p {
   font-size: 1.6rem;
+  font-weight: 500;
   color: var(--grey);
   margin-top: 2.6rem;
   margin-bottom: 2.4rem;
@@ -115,6 +116,74 @@ html {
   position: relative;
   width: 100%;
   top: 40rem;
+}
+
+.features {
+  position: relative;
+  top: 40.227rem;
+  width: 100%;
+  height: 169.5rem;
+  display: grid;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.features_banner {
+  width: 91.467vw;
+  height: 12rem;
+  background: var(--gradient-1);
+  border-radius: 1rem;
+}
+
+.features_banner h2 {
+  font-size: 2.4rem;
+  color: var(--white);
+  position: relative;
+  left: 2.8rem;
+  top: 2.4rem;
+}
+
+.features_article {
+  width: 91.467vw;
+  border-radius: 1rem;
+  background-color: var(--white);
+  border: 1px solid red;
+  padding-left: 2.8rem;
+}
+
+.features_article img {
+  position: relative;
+  top: -2.4rem;
+}
+
+.features_article-text {
+  width: 28.6rem;
+  height: 11.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.features_article-text h3 {
+  font-size: 2rem;
+}
+
+.features_article-text p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  color: var(--grey);
+}
+
+.features_article a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(#ff6f48, #f02aa6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8rem;
+  font-weight: bold;
+  position: relative;
+  top: 2.4rem;
 }
 
 @media screen and (min-width: 768px) {
