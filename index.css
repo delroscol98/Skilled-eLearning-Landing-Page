@@ -27,3 +27,174 @@ body {
   min-height: 100vh;
   width: 100%;
 }
+
+header {
+  width: 91.467vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 4.267vw;
+  top: 1.6rem;
+}
+
+.hero_header-logo {
+  width: 23.733vw;
+  align-self: center;
+}
+
+.hero_header-logo img {
+  width: inherit;
+}
+
+.hero_header-button {
+  width: 14rem;
+  height: 4.8rem;
+  border-radius: 2.8rem;
+  background-color: var(--dark-navy);
+  border: none;
+}
+
+.hero_header-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 4.267vw;
+  font-weight: bold;
+}
+
+.hero_header-button:hover {
+  cursor: pointer;
+  background-color: #666ca3;
+}
+
+.hero_header-button a:active {
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero_text {
+  width: 91.467vw;
+  height: 76vw;
+  position: relative;
+  left: 4.267vw;
+  top: 5.4rem;
+}
+
+.hero_text h1 {
+  width: inherit;
+  font-size: 10.667vw;
+}
+
+.hero_text p {
+  width: inherit;
+  font-size: 4.267vw;
+  line-height: 1.625;
+  margin-top: 6.933vw;
+  margin-bottom: 6.4vw;
+}
+
+.hero_text button {
+  width: 44.533vw;
+  height: 14.933vw;
+  border-radius: 31.5rem;
+  background: var(--gradient-1);
+  border: none;
+}
+
+.hero_text button a {
+  color: var(--white);
+  font-size: 4.267vw;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 89.714vw;
+    left: 5.078vw;
+  }
+
+  .hero_header-logo {
+    width: 11.589vw;
+  }
+
+  .hero_header-logo img {
+    width: inherit;
+  }
+
+  .hero_header-button a {
+    font-size: 2.083vw;
+  }
+
+  .hero_text {
+    width: 51.823vw;
+    height: 36.979vw;
+    top: 12.3rem;
+  }
+
+  .hero_text h1 {
+    font-size: 5.208vw;
+  }
+
+  .hero_text p {
+    width: inherit;
+    font-size: 2.083vw;
+    margin: 3.255vw 0;
+  }
+
+  .hero_text button {
+    width: 21.745vw;
+    height: 7.292vw;
+  }
+
+  .hero_text button a {
+    font-size: 2.083vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    width: 77.028vw;
+    left: 11.513vw;
+    top: 1.667vw;
+  }
+
+  .hero_header-logo {
+    width: 7.72vw;
+  }
+
+  .hero_header-button {
+    width: 11.597vw;
+    height: 3.889vw;
+  }
+
+  .hero_header-button a {
+    font-size: 1.25vw;
+  }
+
+  .hero_text {
+    width: 31.736vw;
+    height: 24.931vw;
+    left: 11.513vw;
+    top: 17.5vw;
+  }
+
+  .hero_text h1 {
+    font-size: 3.889vw;
+  }
+
+  .hero_text p {
+    font-size: 1.25vw;
+    margin-top: 2.014vw;
+    margin-bottom: 2.778vw;
+  }
+
+  .hero_text button {
+    width: 11.597vw;
+    height: 4.375vw;
+  }
+
+  .hero_text button a {
+    font-size: 1.25vw;
+  }
+}
