@@ -65,7 +65,12 @@ header {
 }
 
 .hero_header-button a:active {
-  background: var(--gradient-1);
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, hsl(13, 100%, 64%) 0%, hsl(322, 87%, 55%) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -99,6 +104,16 @@ header {
   border: none;
 }
 
+.hero_text button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, hsl(13, 100%, 64%) 0%, hsl(322, 87%, 55%) 100%);
+}
+
 .hero_text button a {
   color: var(--white);
   font-size: 4.267vw;
@@ -111,6 +126,7 @@ header {
   position: relative;
   left: 4.267vw;
   margin-top: 12.267vw;
+  z-index: -1;
 }
 
 .features {
@@ -184,6 +200,18 @@ header {
   font-weight: bold;
 }
 
+.features_article-text a:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, hsl(13, 100%, 64%) 0%, hsl(322, 87%, 55%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
 footer {
   background-color: var(--dark-navy);
   height: 12rem;
@@ -210,6 +238,16 @@ footer button {
   align-self: center;
 }
 
+footer button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, hsl(237, 100%, 64%) 0%, hsl(322, 87%, 55%) 100%);
+  cursor: pointer;
+}
+
 footer button a {
   color: var(--white);
   text-decoration: none;
@@ -229,6 +267,11 @@ footer button a {
 
   .hero_header-logo img {
     width: inherit;
+  }
+
+  .hero_header-button:hover {
+    cursor: pointer;
+    background-color: #666ca3;
   }
 
   .hero_header-button a {
@@ -269,6 +312,7 @@ footer button a {
     width: 83.426vw;
     margin-top: -12.903vw;
     left: 1.2rem;
+    z-index: -1;
   }
 
   .features {
@@ -346,6 +390,11 @@ footer button a {
     height: 3.889vw;
   }
 
+  .hero_header-button:hover {
+    cursor: pointer;
+    background-color: #666ca3;
+  }
+
   .hero_header-button a {
     font-size: 1.25vw;
   }
@@ -379,6 +428,7 @@ footer button a {
   .hero_img img {
     width: 68.863vw;
     left: 18.652vw;
+    z-index: -1;
   }
 
   .features {
