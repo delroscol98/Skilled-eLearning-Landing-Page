@@ -90,7 +90,7 @@ The CSS below is my first time using CSS Grid in a project.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/delroscol98)
+- Frontend Mentor - [@delroscol98](https://www.frontendmentor.io/profile/delroscol98)
 
 ## Acknowledgments
 
